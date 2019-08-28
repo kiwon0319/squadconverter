@@ -14,35 +14,38 @@ lv = data ["gun1"] ["gun_level"]
 
 stat = CalcStat.CalcStat(int(id), int(lv)).calc()
 
-data ["gun1"] ["life"] = stat ["hp"] * data["gun1"] ["number"]
+data ["gun1"] ["life"] = stat ["hp"] * int (data["gun1"] ["number"])
 data ["gun1"] ["pow"] = stat ["pow"]
 data ["gun1"] ["hit"] = stat ["hit"]
 data ["gun1"] ["dodge"] = stat ["dodge"]
 data ["gun1"] ["rate"] = stat ["rate"]
 
-data ["gun2"] ["life"] = stat ["hp"] * data["gun2"] ["number"]
+data ["gun2"] ["life"] = stat ["hp"] * int (data["gun2"] ["number"])
 data ["gun2"] ["pow"] = stat ["pow"]
 data ["gun2"] ["hit"] = stat ["hit"]
 data ["gun2"] ["dodge"] = stat ["dodge"]
 data ["gun2"] ["rate"] = stat ["rate"]
 
-data ["gun3"] ["life"] = stat ["hp"] * data["gun3"] ["number"]
+data ["gun3"] ["life"] = stat ["hp"] * int (data["gun3"] ["number"])
 data ["gun3"] ["pow"] = stat ["pow"]
 data ["gun3"] ["hit"] = stat ["hit"]
 data ["gun3"] ["dodge"] = stat ["dodge"]
 data ["gun3"] ["rate"] = stat ["rate"]
 
-data ["gun4"] ["life"] = stat ["hp"] * data["gun4"] ["number"]
+data ["gun4"] ["life"] = stat ["hp"] * int (data["gun4"] ["number"])
 data ["gun4"] ["pow"] = stat ["pow"]
 data ["gun4"] ["hit"] = stat ["hit"]
 data ["gun4"] ["dodge"] = stat ["dodge"]
 data ["gun4"] ["rate"] = stat ["rate"]
 
-data ["gun5"] ["life"] = stat ["hp"] * data["gun5"] ["number"]
+data ["gun5"] ["life"] = stat ["hp"] * int (data["gun5"] ["number"])
 data ["gun5"] ["pow"] = stat ["pow"]
 data ["gun5"] ["hit"] = stat ["hit"]
 data ["gun5"] ["dodge"] = stat ["dodge"]
 data ["gun5"] ["rate"] = stat ["rate"]
+
+print (data["gun1"])
+print (data["gun2"])
 
 
 def data_to_json(data) :
