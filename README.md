@@ -10,3 +10,4 @@
 ## 연락처
 * discord
   귀등#9940
+* email : kiwon0319@gmail.com
