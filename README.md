@@ -7,6 +7,7 @@
 
 ## 개발환경
 * python 3.7
+* pyqt5
 ## 연락처
 * discord
   귀등#9940
